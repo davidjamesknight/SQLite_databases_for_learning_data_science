@@ -5,24 +5,24 @@ The Iris, Titanic, and other [seaborn example datasets](https://github.com/mwask
 Each database starts with an `Observation` table, which contains only boolean and numeric types. Text data are split off into related tables.
 
 ## Contents
-- [Example: Querying the Iris dataset with Python](##example)
-- [Schemata](##schemata)
-    - [x] [`anscombe.db`](###anscombe.db)
-    - [x] [`attention.db`](###attention.db)
+- [Example: Querying the Iris dataset with Python](#example)
+- [Schemata](#schemata)
+    - [x] [`anscombe.db`](#anscombe.db)
+    - [x] [`attention.db`](#attention.db)
     - [ ] `brain_networks.db`
-    - [x] [`car_crashes.db`](###car_crashes.db)
-    - [x] [`diamonds.db`](###diamonds.db)
-    - [x] [`dots.db`](###dots.db)
-    - [x] [`exercise.db`](###exercise.db)
-    - [x] [`flights.db`](###flights.db)
-    - [x] [`fmri.db`](###fmri.db)
-    - [x] [`gammas.db`](###gammas.db)
-    - [x] [`iris.db`](###iris.db)
-    - [x] [`mpg.db`](###mpg.db)
-    - [x] [`planets.db`](###planets.db)
-    - [x] [`tips.db`](###tips.db)
-    - [x] [`titanic.db`](###titanic.db)
-- [Credits](##credits)
+    - [x] [`car_crashes.db`](#car_crashes.db)
+    - [x] [`diamonds.db`](#diamonds.db)
+    - [x] [`dots.db`](#dots.db)
+    - [x] [`exercise.db`](#exercise.db)
+    - [x] [`flights.db`](#flights.db)
+    - [x] [`fmri.db`](#fmri.db)
+    - [x] [`gammas.db`](#gammas.db)
+    - [x] [`iris.db`](#iris.db)
+    - [x] [`mpg.db`](#mpg.db)
+    - [x] [`planets.db`](#planets.db)
+    - [x] [`tips.db`](#tips.db)
+    - [x] [`titanic.db`](#titanic.db)
+- [Credits](#credits)
 
 ## Example
 
