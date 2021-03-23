@@ -7,21 +7,21 @@ Each database starts with an `Observation` table, which contains only boolean an
 ## Contents
 - [Example: Querying the Iris dataset with Python](#example)
 - [Schemata](#schemata)
-    - [x] [`anscombe.db`](#anscombe.db)
-    - [x] [`attention.db`](#attention.db)
+    - [x] [`anscombe.db`](#anscombe)
+    - [x] [`attention.db`](#attention)
     - [ ] `brain_networks.db`
-    - [x] [`car_crashes.db`](#car_crashes.db)
-    - [x] [`diamonds.db`](#diamonds.db)
-    - [x] [`dots.db`](#dots.db)
-    - [x] [`exercise.db`](#exercise.db)
-    - [x] [`flights.db`](#flights.db)
-    - [x] [`fmri.db`](#fmri.db)
-    - [x] [`gammas.db`](#gammas.db)
-    - [x] [`iris.db`](#iris.db)
-    - [x] [`mpg.db`](#mpg.db)
-    - [x] [`planets.db`](#planets.db)
-    - [x] [`tips.db`](#tips.db)
-    - [x] [`titanic.db`](#titanic.db)
+    - [x] [`car_crashes.db`](#car-crashes)
+    - [x] [`diamonds.db`](#diamonds)
+    - [x] [`dots.db`](#dots)
+    - [x] [`exercise.db`](#exercise)
+    - [x] [`flights.db`](#flights)
+    - [x] [`fmri.db`](#fmri)
+    - [x] [`gammas.db`](#gammas)
+    - [x] [`iris.db`](#iris)
+    - [x] [`mpg.db`](#mpg)
+    - [x] [`planets.db`](#planets)
+    - [x] [`tips.db`](#tips)
+    - [x] [`titanic.db`](#titanic)
 - [Credits](#credits)
 
 ## Example
@@ -57,7 +57,7 @@ df.head()
 
 
 ## Schemata
-### anscombe.db
+### Anscombe
 
 | Table | Column | Type |
 | :-- | :-- | :-- |
@@ -68,7 +68,7 @@ df.head()
 | Observation | dataset_id | BIGINT |
 
 
-### attention.db
+### Attention
 
 | Table | Column | Type |
 | :-- | :-- | :-- |
@@ -81,7 +81,7 @@ df.head()
 | Observation | attention_id | BIGINT |
 
 
-### car_crashes.db
+### Car Crashes
 
 | Table | Column | Type |
 | :-- | :-- | :-- |
@@ -97,7 +97,7 @@ df.head()
 | Observation | abbrev_id | BIGINT |
 
 
-### diamonds.db
+### Diamonds
 
 | Table | Column | Type |
 | :-- | :-- | :-- |
@@ -119,7 +119,7 @@ df.head()
 | Observation | clarity_id | BIGINT |
 
 
-### dots.db
+### Dots
 
 | Table | Column | Type |
 | :-- | :-- | :-- |
@@ -134,7 +134,7 @@ df.head()
 | Observation | choice_id | BIGINT |
 
 
-### exercise.db
+### Exercise
 
 | Table | Column | Type |
 | :-- | :-- | :-- |
@@ -152,7 +152,7 @@ df.head()
 | Time | time | TEXT |
 
 
-### flights.db
+### Flights
 
 | Table | Column | Type |
 | :-- | :-- | :-- |
@@ -163,7 +163,7 @@ df.head()
 | Observation | month_id | BIGINT |
 
 
-### fmri.db
+### FMRI
 
 | Table | Column | Type |
 | :-- | :-- | :-- |
@@ -180,7 +180,7 @@ df.head()
 | Subject | subject | TEXT |
 
 
-### gammas.db
+### Gammas
 
 | Table | Column | Type |
 | :-- | :-- | :-- |
@@ -192,7 +192,7 @@ df.head()
 | Roi | "ROI" | TEXT |
 
 
-### iris.db
+### Iris
 
 | Table | Column | Type |
 | :-- | :-- | :-- |
@@ -205,7 +205,7 @@ df.head()
 | Species | species | TEXT |
 
 
-### mpg.db
+### MPG
 
 | Table | Column | Type |
 | :-- | :-- | :-- |
@@ -224,7 +224,7 @@ df.head()
 | Origin | origin | TEXT |
 
 
-### planets.db
+### Planets
 
 | Table | Column | Type |
 | :-- | :-- | :-- |
@@ -238,7 +238,7 @@ df.head()
 | Observation | method_id | BIGINT |
 
 
-### tips.db
+### Tips
 
 | Table | Column | Type |
 | :-- | :-- | :-- |
@@ -259,7 +259,7 @@ df.head()
 | Time | time | TEXT |
 
 
-### titanic.db
+### Titanic
 
 | Table | Column | Type |
 | :-- | :-- | :-- |
