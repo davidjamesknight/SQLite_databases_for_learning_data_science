@@ -1,4 +1,4 @@
-# SQLite Databases for Data Science
+# SQLite Databases for Learning Data Science
 
 The Iris, Titanic, and other [seaborn example datasets](https://github.com/mwaskom/seaborn-data) in `.db` format for practicing SQL queries, exploratory analysis, machine learning, etc. 
 
