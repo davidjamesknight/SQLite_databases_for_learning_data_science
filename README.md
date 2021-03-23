@@ -25,10 +25,8 @@ Each database starts with an `Observation` table, which contains only boolean an
 - [Credits](#credits)
 
 ## Example
-
+Querying the [Iris dataset](#iris) with Python:
 ```python
-# Querying the Iris dataset with Python
-
 import sqlite3
 import pandas as pd
 
@@ -46,7 +44,7 @@ sql = """
 df = pd.read_sql_query(sql, db)
 df.head()
 ```
-
+Result:
 | | petal_length | petal_width | sepal_length | sepal_width | species |
 | :-- | :-- | :-- | :-- | :-- | :-- |
 | **0** | 1.4 | 0.2 | 5.1 | 3.5 | setosa |
