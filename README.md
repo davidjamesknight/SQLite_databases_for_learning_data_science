@@ -295,4 +295,4 @@ df.head()
 
 ## Credits
 
-These databases are based on the .csv files in the [data repository](https://github.com/mwaskom/seaborn-data) for `seaborn.load_dataset`. They were converted to SQLite using Pandas and SQLAlchemy. The datasets themselves are all either open source or in the public domain.
+These databases were created by converting the .csv files in the [seaborn data repository](https://github.com/mwaskom/seaborn-data) to SQLite using Pandas and SQLAlchemy. The datasets themselves are all either open source or in the public domain.
